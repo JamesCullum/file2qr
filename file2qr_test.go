@@ -36,7 +36,7 @@ func ExampleNew() {
 	// Modified threads: 10
 }
 
-func ExampleEncode() {
+func ExampleConverter_Encode() {
 	converter := New()
 	progress := 0
 	tempFolder := testDataRoot + osSep + "ExampleEncode"
@@ -51,7 +51,7 @@ func ExampleEncode() {
 	// Encoded with errors <nil> <nil> into 382 frames with final progress 100
 }
 
-func ExampleDecode() {
+func ExampleConverter_Decode() {
 	converter := New()
 	progress := 0
 	tempFolder := testDataRoot + osSep + "ExampleDecode"

@@ -16,6 +16,8 @@ import (
 	"github.com/makiuchi-d/gozxing/qrcode"
 )
 
+// Converter is the instance of this converter.
+// You can directly manipulate the available parameters to modify settings.
 type Converter struct {
 	NumThread         int
 	QRChunkSize       int64
@@ -25,7 +27,6 @@ type Converter struct {
 }
 
 // New creates a converter instance with default settings.
-// You can directly manipulate the available parameters to modify settings.
 func New() *Converter {
 	return &Converter{
 		NumThread:         25,
