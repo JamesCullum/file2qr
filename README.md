@@ -40,7 +40,7 @@ err := handler.Decode("./frames", "./output.bin", &current_progress)
 
 ### Use as standalone converter
 
-Download the newest release for your operationg system.
+Download the [newest release](https://github.com/JamesCullum/file2qr/releases) for your operationg system.
 It will contain a compiled CLI and packages ffmpeg for video en/decoding.
 
 It contains shell scripts for encoding and decoding a file to qr codes and a video file of it.
