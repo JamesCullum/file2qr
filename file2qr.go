@@ -53,7 +53,7 @@ func (c *Converter) Encode(inputFilepath, outputFolderpath string, progress *int
 	}
 
 	// Create folder if it does not exist
-	os.Mkdir(outputFolderpath, 0644)
+	os.Mkdir(outputFolderpath, 0777)
 
 	// Init encoder
 	encoder := qrcode.NewQRCodeWriter()
