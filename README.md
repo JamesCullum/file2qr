@@ -1,6 +1,6 @@
 # file2qr
 
-[![travis](https://travis-ci.org/JamesCullum/file2qr.svg?branch=master)](https://travis-ci.org/JamesCullum/file2qr) 
+[![travis](https://travis-ci.com/JamesCullum/file2qr.svg?branch=master)](https://travis-ci.com/JamesCullum/file2qr) 
 [![go report card](https://goreportcard.com/badge/github.com/JamesCullum/file2qr)](https://goreportcard.com/report/github.com/JamesCullum/file2qr) 
 [![coverage](https://img.shields.io/badge/coverage-86%25-brightgreen.svg)](https://gocover.io/github.com/JamesCullum/file2qr)
 [![godocs](https://godoc.org/github.com/JamesCullum/file2qr?status.svg)](https://godoc.org/github.com/JamesCullum/file2qr) 
