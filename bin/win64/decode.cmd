@@ -1,7 +1,7 @@
 @echo off
 
-SET thisDir=%~dp0
-SET encodeFile=%1
+SET "thisDir=%~dp0"
+SET "encodeFile=%1"
 
 if [%1]==[] (
 	echo Please provide as parameter the movie file you wish to decode.
@@ -11,7 +11,7 @@ if [%1]==[] (
 
 echo Converting video to frames
 mkdir "%thisDir%qr-frames"
-"%thisDir%ffmpeg\bin\ffmpeg.exe" -i "%encodeFile%" "%thisDir%qr-frames\%%015d.png"
+"%thisDir%ffmpeg\bin\ffmpeg.exe" -i %encodeFile% "%thisDir%qr-frames\%%015d.png"
 echo.
 
 echo Converting frames to file
