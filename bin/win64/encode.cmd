@@ -1,7 +1,7 @@
 @echo off
 
-SET thisDir=%~dp0
-SET encodeFile=%1
+SET "thisDir=%~dp0"
+SET "encodeFile=%1"
 
 if [%1]==[] (
 	echo Please provide as parameter the file you wish to encode.
@@ -10,7 +10,7 @@ if [%1]==[] (
 )
 
 echo Converting file to frames
-"%thisDir%file2qr\cli.exe" -encode -encode-file="%encodeFile%" -encode-folder-destination="%thisDir%qr-frames"
+"%thisDir%file2qr\cli.exe" -encode -encode-file=%encodeFile% -encode-folder-destination="%thisDir%qr-frames"
 echo.
 
 echo Converting frames to video
